@@ -26,12 +26,12 @@ app.use(errorHandler);
 if (isProduction) {
   // Production mode
   app.listen(PORT, () => {
-    console.log(`Server is running on port ${PORT}`);
+    console.log(`Server is running on port ${PORT} in production`);
   });
 } else {
   // Development mode
   app.listen(PORT, () => {
-    console.log(`Server is running on port ${PORT}`);
+    console.log(`Server is running on port ${PORT} development`);
   });
 }
 
