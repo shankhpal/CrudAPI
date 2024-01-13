@@ -32,7 +32,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:3000/api/users/2f96a470-684e-48ca-8415-13263fab90a6",
+					"raw": "http://localhost:3000/api/users/78c7f4be-913b-4940-945e-0535e27ee1c3",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -41,7 +41,7 @@
 					"path": [
 						"api",
 						"users",
-						"2f96a470-684e-48ca-8415-13263fab90a6"
+						"78c7f4be-913b-4940-945e-0535e27ee1c3"
 					]
 				}
 			},
@@ -109,7 +109,7 @@
 		{
 			"name": "api/users/:id",
 			"request": {
-				"method": "POST",
+				"method": "DELETE",
 				"header": [],
 				"body": {
 					"mode": "raw",
@@ -121,7 +121,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:3000/api/users",
+					"raw": "http://localhost:3000/api/users/78c7f4be-913b-4940-945e-0535e27ee1c3",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -129,7 +129,8 @@
 					"port": "3000",
 					"path": [
 						"api",
-						"users"
+						"users",
+						"78c7f4be-913b-4940-945e-0535e27ee1c3"
 					]
 				}
 			},
